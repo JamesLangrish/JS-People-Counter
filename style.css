@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+html {
+  font-family: "Press Start 2P", cursive;
+  line-height: 50px;
+}
+
+header {
+  text-align: center;
+}
+
+.people-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.89);
+  color: white;
+  width: 410px;
+  margin: 0 auto;
+  border-radius: 19px;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 30px;
+  border-radius: 19px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#increment-button {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  background-color: brown;
+}
+
+#save-button {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  background-color: green;
+}
+
+p {
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .people-counter {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 50px 0px;
+  }
+}
